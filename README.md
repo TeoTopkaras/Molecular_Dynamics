@@ -4,21 +4,25 @@ states, you have to change the State_set parameter in the main simulation block.
 For the preseted parameters we have the following settings:
 
 ------------------------------------------------
+
 State_set = 1, Gas state simulation 
 
 State_set = 2, Liquid state simulation 
 
 State_set = 3, Solid state simulation 
+
 ------------------------------------------------
 
 In addition, for the pair correlation function you have to set the cor_func_factor in order to plot the correct g.
 
 ------------------------------------------------
+
 cor_func_factor = 1, Gas state simulation 
 
 cor_func_factor = 2, Liquid state simulation 
 
 cor_func_factor = 3, Solid state simulation 
+
 ------------------------------------------------
 
 
