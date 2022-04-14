@@ -1,3 +1,8 @@
+Descritpion
+-----------------------------------------------
+This code produces a 3d-simulation of 108 Argon particles that interact with each other via the Lennard-Jones potential. We use the Verlet algorithm to optimize the system and make sure the energy is conserved dusrin the simulation.
+
+------------------------------------------------
 Code simply runs without any input from an external file, exept for the calculation of the pair correlation function. In order to simulate different 
 states, you have to change the State_set parameter in the main simulation block. The code does approximately 20 minutes to run.
 
